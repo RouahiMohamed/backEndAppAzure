@@ -69,7 +69,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'docker' # Remplacez par le nom de votre connexion de service
-    repository: 'mohamedrouahi/angular-backend'
+    repository: 'mohamedrouahi/springr-backend'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: 'version-$(imageVersion)'
